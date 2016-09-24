@@ -1,0 +1,15 @@
+h1{
+    width: 400px;
+    color: blue;
+    box-shadow: 2px 2px 45px orange;
+    font-style:italic;
+}
+div{
+    width: 300px;
+    
+}
+label{
+    color: darkblue;
+}
+
+
