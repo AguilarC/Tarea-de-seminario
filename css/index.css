@@ -11,5 +11,19 @@ div{
 label{
     color: darkblue;
 }
+img {
+    
+    width: 70%;
+    border-color: black;
+    
+    -webkit-border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 10px 10px orange ;
 
+}
+#ima{
+    padding: 40px;
+    width: 800px;
+    background-color: yellow;
+    background: -webkit-radial-gradient(top,transparent,orangered,cornflowerblue)
+}
 
