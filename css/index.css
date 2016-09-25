@@ -4,10 +4,7 @@ h1{
     box-shadow: 2px 2px 45px orange;
     font-style:italic;
 }
-div{
-    width: 300px;
-    
-}
+
 label{
     color: darkblue;
 }
@@ -26,4 +23,27 @@ img {
     background-color: yellow;
     background: -webkit-radial-gradient(top,transparent,orangered,cornflowerblue)
 }
-
+.list-group{
+    width: 300px;
+    padding: 30px;
+    border-color: black;
+    font-size: 20px;
+    font-style: italic;
+    /*background-color: violet;*/
+}
+form{
+    width: 300px;
+}
+li:hover,.list-group-item:first-child:hover,.list-group-item:last-child:hover{
+    border-left: solid  12px blue;
+    color: blue;
+}
+li,.list-group-item,.list-group-item:first-child,.list-group-item:last-child{
+    margin: 2px;
+    padding: 12px;
+    background: -webkit-radial-gradient(center ,yellow, orange);
+    /*border:solid 2px orange;*/
+    border-top-right-radius: 20px ;
+    border-bottom-right-radius: 20px;
+    color: white;
+}   
