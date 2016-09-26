@@ -31,7 +31,7 @@ img {
     font-style: italic;
     /*background-color: violet;*/
 }
-form{
+#fdatos{
     width: 300px;
 }
 li:hover,.list-group-item:first-child:hover,.list-group-item:last-child:hover{
@@ -47,3 +47,12 @@ li,.list-group-item,.list-group-item:first-child,.list-group-item:last-child{
     border-bottom-right-radius: 20px;
     color: white;
 }   
+#fform{
+    width: 300px;
+    
+}
+.resultado{
+    padding: 10px;
+    font-size: 12px;
+    color: white;
+}
