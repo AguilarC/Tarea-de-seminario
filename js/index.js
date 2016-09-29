@@ -13,3 +13,15 @@ function sumar(){
     }
     return false;
 }
+
+function calcular(){
+    var N = document.getElementById("numero").value;
+    var lista = document.createElement("ul");
+    for(var i=1;i<=N;i++){
+        var item = document.createElement("li");
+        item.innerHTML = parseInt(Math.random()*100)+1;
+        lista.appendChild(item);
+    }
+    document.getElementsByTagName("body")[0].appendChild(lista);
+    return false;
+}

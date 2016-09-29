@@ -38,10 +38,10 @@ li:hover,.list-group-item:first-child:hover,.list-group-item:last-child:hover{
     border-left: solid  12px blue;
     color: blue;
 }
-li,.list-group-item,.list-group-item:first-child,.list-group-item:last-child{
+.list-group-item,.list-group-item:first-child,.list-group-item:last-child{
     margin: 2px;
     padding: 12px;
-    background: -webkit-radial-gradient(center ,yellow, orange);
+    background: -webkit-radial-gradient(center ,yellow, orange) ;
     /*border:solid 2px orange;*/
     border-top-right-radius: 20px ;
     border-bottom-right-radius: 20px;
@@ -56,3 +56,6 @@ li,.list-group-item,.list-group-item:first-child,.list-group-item:last-child{
     font-size: 12px;
     color: white;
 }
+#fgenerar{
+    width: 300px;
+}   
