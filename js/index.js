@@ -25,3 +25,9 @@ function calcular(){
     document.getElementsByTagName("body")[0].appendChild(lista);
     return false;
 }
+
+document.getElementById("icolor").onchange = function(event){
+    var valor = event.target.value;
+    var nuevoColor = "linear-gradient("+valor+", #fff)";
+    document.getElementsByName("fondo")[0].style.background = nuevoColor;
+}

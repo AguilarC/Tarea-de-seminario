@@ -20,8 +20,8 @@ img {
 #ima{
     padding: 40px;
     width: 800px;
-    background-color: yellow;
-    background: -webkit-radial-gradient(top,transparent,orangered,cornflowerblue)
+    /*background-color: yellow;
+    background: -webkit-radial-gradient(top,transparent,orangered,cornflowerblue)*/
 }
 .list-group{
     width: 300px;
@@ -59,3 +59,8 @@ li:hover,.list-group-item:first-child:hover,.list-group-item:last-child:hover{
 #fgenerar{
     width: 300px;
 }   
+#icolor{
+    margin: 20px;
+    padding: 3px;
+    width: 300px;
+}
